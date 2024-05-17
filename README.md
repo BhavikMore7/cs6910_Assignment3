@@ -4,15 +4,15 @@
 #A Transliteration System employing RNN, GRU, and LSTM, integrated into Encoder-Decoder Seq2Seq Architectures (with and without Attention Mechanisms).
 
 ##Assignment Description:
-The project focuses on developing a transliteration system using advanced neural network architectures like RNNs, GRUs, and LSTMs. It employs encoder-decoder Seq2Seq models, both with and without attention mechanisms, to convert text between different scripts while preserving phonetic structures. The goal is to compare these models using the Aksharantar dataset from AI4Bharat, aiming to identify the most effective approach for accurate transliteration. Hyperparameter tuning via wandb is used to optimize model performance.
+The project focuses on developing a transliteration system using advanced neural network architectures like RNNs, GRUs, and LSTMs. It employs encoder-decoder Seq2Seq models, both with and without attention mechanisms, to convert text between different scripts while preserving phonetic structures. The goal is to compare these models using the Aksharantar dataset from AI4Bharat, aiming to identify the most effective approach for accurate transliteration. Hyperparameter tuning via wandb is used to optimize model performance.<br>
 
-The Complete Step by step procedure to Build and train the model is given in the jupyter notebook in the current directory.
+The Complete Step by step procedure to Build and train the model is given in the jupyter notebook in the current directory.<br>
 
-Pytorch was used so as to create the model and WandB was used for hyperparameter tuning.
+Pytorch was used so as to create the model and WandB was used for hyperparameter tuning.<br>
 
-Hyperparameters were tuned for two variations of the model:
-a)Without Attention mechanism:
-The search space for hyperparameter tuning is described below:
+Hyperparameters were tuned for two variations of the model:<br>
+a)Without Attention mechanism:<br>
+The search space for hyperparameter tuning is described below:<br>
 ```
 sweep_config = {
     "method": "bayes",
@@ -39,8 +39,8 @@ sweep_config = {
 
 
 
-b) With Attention mechanism:
-The search space for hyperparameter tuning is described below:
+b) With Attention mechanism:<br>
+The search space for hyperparameter tuning is described below:<br>
 ```
 sweep_config = {
     "method": "bayes",
@@ -64,4 +64,4 @@ sweep_config = {
     }
 }
 ```
-WANDB Report Link:https://wandb.ai/ch22m009/DLA3/reports/Assignment-3--Vmlldzo3OTkxMDY0
+WANDB Report Link:https://wandb.ai/ch22m009/DLA3/reports/Assignment-3--Vmlldzo3OTkxMDY0<br>
