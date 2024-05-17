@@ -13,7 +13,7 @@ Pytorch was used so as to create the model and WandB was used for hyperparameter
 Hyperparameters were tuned for two variations of the model:
 a)Without Attention mechanism:
 The search space for hyperparameter tuning is described below:
-'''
+```
 sweep_config = {
     "method": "bayes",
     'metric': {
@@ -35,13 +35,13 @@ sweep_config = {
         "attention": {"values": [False]}
     }
 }
-'''
+```
 
 
 
 b) With Attention mechanism:
 The search space for hyperparameter tuning is described below:
-'''
+```
 sweep_config = {
     "method": "bayes",
     'metric': {
@@ -63,4 +63,5 @@ sweep_config = {
         "attention": {"values": [True]}
     }
 }
-'''
+```
+WANDB Report Link:https://wandb.ai/ch22m009/DLA3/reports/Assignment-3--Vmlldzo3OTkxMDY0
