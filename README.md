@@ -1,16 +1,16 @@
 # CS6910_Assignment3
-#Bhavik More 
+# Bhavik More 
 
-#A Transliteration System employing RNN, GRU, and LSTM, integrated into Encoder-Decoder Seq2Seq Architectures (with and without Attention Mechanisms).
+# A Transliteration System employing RNN, GRU, and LSTM, integrated into Encoder-Decoder Seq2Seq Architectures (with and without Attention Mechanisms).
 
-##Assignment Description:
+## Assignment Description:
 The project focuses on developing a transliteration system using advanced neural network architectures like RNNs, GRUs, and LSTMs. It employs encoder-decoder Seq2Seq models, both with and without attention mechanisms, to convert text between different scripts while preserving phonetic structures. The goal is to compare these models using the Aksharantar dataset from AI4Bharat, aiming to identify the most effective approach for accurate transliteration. Hyperparameter tuning via wandb is used to optimize model performance.<br>
 
 The Complete Step by step procedure to Build and train the model is given in the jupyter notebook in the current directory.<br>
 
 Pytorch was used so as to create the model and WandB was used for hyperparameter tuning.<br>
 
-Hyperparameters were tuned for two variations of the model:<br>
+## Hyperparameters were tuned for two variations of the model:<br>
 a)Without Attention mechanism:<br>
 The search space for hyperparameter tuning is described below:<br>
 ```
